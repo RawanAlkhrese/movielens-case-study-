@@ -1,10 +1,9 @@
 # movieslens-case-Data-study
 ## Prerequisites
-- **Python versions 3.0+**
-- **pandas 0.23.4**
-- **numpy 1.15.4**
-- **skcikit-learn 0.20.1**
-
+- Python versions 3.0+
+- pandas 0.23.4
+-numpy 1.15.4
+- skcikit-learn 0.20.1
 ## Project Motivation:
 This is a real-word based project is a part of [Simplilearn](https://www.simplilearn.com/?&utm_source=google&utm_medium=cpc&utm_term=simplilearn&utm_content=184567234548&utm_device=c&utm_campaign=Search-Brand-MiddleEast-ROW-adgroup-Brand-Phrase&mkwid=sZbd0Di7C|pcrid|184567234548|pkw|simplilearn|pmt|p|pdv|c|slid||pgrid|41407361275|ptaid|aud-286398213528:kwd-21251385377|&gclid=Cj0KCQiA4NTxBRDxARIsAHyp6gCX95uHQmhzPAQCyD2tWg7Ey9sm8HmmWUtsL8nsycOHxTYydOk9BKkaAiCfEALw_wcB)
 Data Science Bootcamp. The goal here is to apply what I've learnt fro the course, the accuracy and robustness of the model dosn't matter here.
@@ -16,8 +15,7 @@ made by 6,040 MovieLens users who joined MovieLens in 2000.
  - **Movielens Case Study.ipynb:** contains the code of the project.
  - **Movielens Case Study.html:** html version of the project.
  - **data/:** folder contains the data files as csv format.  
-
-## USAGE LICENSE
+## Usage License
 Neither the University of Minnesota nor any of the researchers
 involved can guarantee the correctness of the data, its suitability
 for any particular purpose, or the validity of results based on the
@@ -41,10 +39,7 @@ purposes under the following conditions:
 
 If you have any further questions or comments, please contact GroupLens
 <grouplens-info@cs.umn.edu>. 
-
-
-## ACKNOWLEDGEMENTS
-
+## Acknowledgements
 Thanks to Shyong Lam and Jon Herlocker for cleaning up and generating the data
 set.
 
