@@ -13132,6 +13132,101 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Data-Files-Details:">Data Files Details:<a class="anchor-link" href="#Data-Files-Details:">&#182;</a></h2><h3 id="1--RATINGS-FILE-DESCRIPTION">1- RATINGS FILE DESCRIPTION<a class="anchor-link" href="#1--RATINGS-FILE-DESCRIPTION">&#182;</a></h3><p>All ratings are contained in the file "ratings.dat" and are in the
+following format:</p>
+<p>UserID::MovieID::Rating::Timestamp</p>
+<ul>
+<li>UserIDs range between 1 and 6040 </li>
+<li>MovieIDs range between 1 and 3952</li>
+<li>Ratings are made on a 5-star scale (whole-star ratings only)</li>
+<li>Timestamp is represented in seconds since the epoch as returned by time(2)</li>
+<li>Each user has at least 20 ratings</li>
+</ul>
+<h3 id="2--USERS-FILE-DESCRIPTION">2- USERS FILE DESCRIPTION<a class="anchor-link" href="#2--USERS-FILE-DESCRIPTION">&#182;</a></h3><p>User information is in the file "users.dat" and is in the following
+format:</p>
+<p>UserID::Gender::Age::Occupation::Zip-code</p>
+<p>All demographic information is provided voluntarily by the users and is
+not checked for accuracy.  Only users who have provided some demographic
+information are included in this data set.</p>
+<ul>
+<li>Gender is denoted by a "M" for male and "F" for female</li>
+<li><p>Age is chosen from the following ranges:</p>
+<ul>
+<li>1:  "Under 18"</li>
+<li>18:  "18-24"</li>
+<li>25:  "25-34"</li>
+<li>35:  "35-44"</li>
+<li>45:  "45-49"</li>
+<li>50:  "50-55"</li>
+<li>56:  "56+"</li>
+</ul>
+</li>
+<li><p>Occupation is chosen from the following choices:</p>
+<ul>
+<li>0:  "other" or not specified</li>
+<li>1:  "academic/educator"</li>
+<li>2:  "artist"</li>
+<li>3:  "clerical/admin"</li>
+<li>4:  "college/grad student"</li>
+<li>5:  "customer service"</li>
+<li>6:  "doctor/health care"</li>
+<li>7:  "executive/managerial"</li>
+<li>8:  "farmer"</li>
+<li>9:  "homemaker"</li>
+<li>10:  "K-12 student"</li>
+<li>11:  "lawyer"</li>
+<li>12:  "programmer"</li>
+<li>13:  "retired"</li>
+<li>14:  "sales/marketing"</li>
+<li>15:  "scientist"</li>
+<li>16:  "self-employed"</li>
+<li>17:  "technician/engineer"</li>
+<li>18:  "tradesman/craftsman"</li>
+<li>19:  "unemployed"</li>
+<li>20:  "writer"</li>
+</ul>
+</li>
+</ul>
+<h3 id="3--MOVIES-FILE-DESCRIPTION">3- MOVIES FILE DESCRIPTION<a class="anchor-link" href="#3--MOVIES-FILE-DESCRIPTION">&#182;</a></h3><p>Movie information is in the file "movies.dat" and is in the following
+format:</p>
+<p>MovieID::Title::Genres</p>
+<ul>
+<li>Titles are identical to titles provided by the IMDB (including
+year of release)</li>
+<li><p>Genres are pipe-separated and are selected from the following genres:</p>
+<ul>
+<li>Action</li>
+<li>Adventure</li>
+<li>Animation</li>
+<li>Children's</li>
+<li>Comedy</li>
+<li>Crime</li>
+<li>Documentary</li>
+<li>Drama</li>
+<li>Fantasy</li>
+<li>Film-Noir</li>
+<li>Horror</li>
+<li>Musical</li>
+<li>Mystery</li>
+<li>Romance</li>
+<li>Sci-Fi</li>
+<li>Thriller</li>
+<li>War</li>
+<li>Western</li>
+</ul>
+</li>
+<li><p>Some MovieIDs do not correspond to a movie due to accidental duplicate
+entries and/or test entries</p>
+</li>
+<li>Movies are mostly entered by hand, so errors and inconsistencies may exist</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <h6 id="Import-the-required-libraries">Import the required libraries<a class="anchor-link" href="#Import-the-required-libraries">&#182;</a></h6>
 </div>
 </div>
