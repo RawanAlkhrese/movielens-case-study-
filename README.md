@@ -6,7 +6,7 @@
 - skcikit-learn 0.20.1
 ## Project Motivation:
 This is a real-word based project is a part of [Simplilearn](https://www.simplilearn.com/?&utm_source=google&utm_medium=cpc&utm_term=simplilearn&utm_content=184567234548&utm_device=c&utm_campaign=Search-Brand-MiddleEast-ROW-adgroup-Brand-Phrase&mkwid=sZbd0Di7C|pcrid|184567234548|pkw|simplilearn|pmt|p|pdv|c|slid||pgrid|41407361275|ptaid|aud-286398213528:kwd-21251385377|&gclid=Cj0KCQiA4NTxBRDxARIsAHyp6gCX95uHQmhzPAQCyD2tWg7Ey9sm8HmmWUtsL8nsycOHxTYydOk9BKkaAiCfEALw_wcB)
-Data Science Bootcamp. The goal here is to apply what I've learnt fro the course, the accuracy and robustness of the model dosn't matter here.
+Data Science Bootcamp. The goal here is to apply what I've learnt from the course, the accuracy and robustness of the model dosn't matter here.
 The **GroupLens** Research Project is a research group in the Department of Computer Science and Engineering in the University of Minnesota. The researchers of this group are involved in many research projects related to the fields of information filtering, collaborative filtering, and recommender systems. Here, they asked me to perform the analysis using the Exploratory Data Analysis technique.
  ## About the Data:
 These files contain 1,000,209 anonymous ratings of approximately 3,900 movies 
